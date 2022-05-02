@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mychart-configmap
+data:
+  myvalue: "Hello World"
+  db_url: "jdbc:h2:mem:testdb"
+  db_user: "sa"
+  db_pass: ""
+  app_port: "8080"
